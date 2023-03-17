@@ -3,6 +3,7 @@ declare const __propDef: {
     props: {
         span?: number | undefined;
         style?: string | undefined;
+        class?: string | undefined;
     };
     events: {
         [evt: string]: CustomEvent<any>;
